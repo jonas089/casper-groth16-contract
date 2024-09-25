@@ -1,0 +1,11 @@
+[package]
+name = "circom-verifier-casper-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+casper-types = { git = "https://github.com/mpapierski/casper-node", branch = "altbn128", default-features = false }
+casper-contract = { git = "https://github.com/mpapierski/casper-node", branch = "altbn128", default-features = false }
+casper-groth16 = { git = "https://github.com/jonas089/groth16-wasm" }
+bn = { version = "0.5", package = "zeropool-bn", default-features = false }
+serde = "1"
