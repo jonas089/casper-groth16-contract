@@ -1,5 +1,8 @@
 # Example circom verifier
 
+> [!WARNING]  
+> This is a research project and hasn't been audited. Use in production at your own risk.
+
 Prerequisite:
 [Review this PR](https://github.com/casper-network/casper-node/pull/4894)
 
